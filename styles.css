@@ -2,6 +2,12 @@ body {
   background-color: rgb(25, 97, 25);
 }
 
+ul {
+  list-style-type: none;
+  color: white;
+  display: none;
+}
+
 h1 {
   color: goldenrod;
 }

@@ -11,6 +11,7 @@ let title = document.getElementById("title")
 let result = document.getElementById("result")
 let cards = document.getElementById("cards")
 let meme = document.getElementById("meme")
+let  rule = document.getElementById("game-rules")
 
 let message = ""
 let count = 0
@@ -27,7 +28,15 @@ let player = {
 let player_info = document.getElementById("player-info")
 
 
-
+function rules() {
+    if (rule.style.display === "none") {
+         rule.style.display = "block"
+    }
+    else {
+         rule.style.display = "none"
+    }
+   
+}
 
 function getRandomCard() {
     let random_no = Math.floor(Math.random() * 13 + 1)

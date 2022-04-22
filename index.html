@@ -15,7 +15,24 @@
   </head>
 
   <body class="text-center">
-    <h1 class="mt-5">Blackjack</h1>
+    <h1 class="mt-5">🂮 Blackjack Game 🂭</h1>
+
+    <p>
+      How to play:
+      <button type="button" class="btn btn-warning" onclick="rules()">
+        Click here
+      </button>
+    </p>
+    <ul id="game-rules">
+      <li>Start game will show two cards randomly from deck of cards</li>
+      <li>Ace 🂡 is equal to 11</li>
+      <li>Jack 🂫 or Queen 🂭 or King 🂮 is equal to 10</li>
+      <li>rest of cards number is same</li>
+      <li>you only won is two cards sum is equal to 21</li>
+      <li>
+        new card button show 1 card at a time and add the number to previous one
+      </li>
+    </ul>
     <p id="title">Want to play around?</p>
     <p>Cards: <span id="cards"></span></p>
     <p id="result">Sum:</p>
