@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(25, 97, 25);
+}
+
+h1 {
+  color: goldenrod;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+#title {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
+.btn-warning {
+  color: #016f32;
+  background-color: goldenrod;
+  border-color: goldenrod;
+  width: 150px;
+}
+
+#meme {
+  display: none;
+  background-image: url(./meme.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
