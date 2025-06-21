@@ -75,6 +75,10 @@ function startGame() {
 
 }
 
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
 
 
 
