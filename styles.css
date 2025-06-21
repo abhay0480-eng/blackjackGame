@@ -40,3 +40,31 @@ p {
   background-position: center;
   background-size: contain;
 }
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode h1 {
+  color: #bb86fc;
+}
+
+body.dark-mode p {
+  color: #e0e0e0;
+}
+
+body.dark-mode #title {
+  color: #e0e0e0;
+}
+
+body.dark-mode .btn-warning {
+  color: #121212;
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+}
+
+body.dark-mode ul {
+  color: #e0e0e0;
+}
